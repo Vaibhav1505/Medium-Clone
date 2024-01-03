@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family:  */
+}
+
+nav {
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.nav-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-logo-icon {
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+}
+.nav-left input{
+  margin-left: 10px;
+  width: 150px;
+  padding: 9px;
+  border-radius: 25px;
+  background-color:whitesmoke;
+  border-style: none;
+}
+
+/* header nav .nav-left .nav-search-bar {
+  
+  width: ;
+
+
+  
+} */
+.nav-right {
+  align-items: center;
+
+  display: flex;
+  padding-left: 70%;
+}
+
+.nav-right-item {
+  padding-right: 35px;
+}
+
+article {
+  justify-content: space-evenly;
+  display: flex;
+}
+/* .article-content-first{
+
+} */
+
+.article-nav ul {
+  padding-top: 20px;
+  font-size: smaller;
+  margin-left:20px ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.566);
+}
+
+.gap-between-article-nav-and-news-and-info {
+  padding-top:12px;
+}
+
+.news-and-info {
+  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+  height: 300px;
+  padding-top: 10px;
+
+
+}
+
+.news-and-info-header {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.news-and-info-header img {
+  border-radius: 25px;
+  }
+
+.news-and-info-content {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+
+ width: 600px;
+  gap: 50px;
+}
+
+.news-and-info-content p {
+  opacity: 0.7;
+}
+
+.gap-between-info-content {
+  height: 10px;
+}
+
+.news-and-info-footer {
+  display: flex;
+  padding-top: 40px;
+  gap: 45px;
+  font-size: 12px;
+  align-items: center;
+
+}
+
+.tech {
+  border: 1px solid rgba(0, 0, 0, 0.174);
+  padding: 8px;
+  white-space: nowrap;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.article-content-second {
+  width: 300px;
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+  padding: 10px;
+  position:relative;
+}
+.staff-picks h4{
+  padding: 20px;
+}
+.article-content-second  .staff-picks .users  p{
+  padding: 8px;
+  color: black;
+  font-weight: bolder;
+}
+.article-content-second  .staff-picks .users{
+  padding-top: 10px;
+}
+
+
+.article-content-second .username-and-photo {
+  display: flex;
+  padding-left: 10px;
+  
+  align-items: center;
+  padding-top:5px;
+  gap: 10px;
+  /* padding-bottom: 10px; */
+
+}
+
+.article-content-second .username-and-photo img {
+  border-radius: 100%;
+  
+}
+.article-content-second .staff-picks p{
+  padding-top:15px;
+  color: green;
+  font-size: smaller;
+}
+.article-content-second .connect{
+  padding:20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+.article-content-second .connect .connect-images{
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  gap: 5px;
+}
+.article-content-second .connect p{
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  font-size: smaller;
+}
+.article-content-second .connect .connect-to-twitter{
+  margin-top: 15px;
+  padding: 5px;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+.article-content-second .connect p{
+padding-top: 10px;
+color:black;
+
+font-size: smaller;
+}
+.article-content-second h4{
+  padding: 15px;
+  padding-top: 30px;
+}
+.article-content-second .Recommended-topics{
+  display: grid;
+  
+  width: 100px;
+  padding: 15px;
+  gap: 5px;
+  grid-template-columns: auto auto auto;
+  
+}
+
+
+.article-content-second .recommended-topics-headings{
+  color: rgba(0, 0, 0, 0.748);
+  font-size: smaller;
+  white-space: nowrap;
+  border: 1px solid rgba(0, 0, 0, 0.093);
+  border-radius: 25px;
+  padding: 5px;
+  background-color: rgba(3, 3, 3, 0.04)
+
+}
+.article-content-second p{
+  color: green;
+  font-size: smaller;
+  padding-left: 15px;
+}
+.article-content-second .who-to-follow{
+  width: 250px;
+  /* padding: 10px; */
+}
+.article-content-second .who-to-follow-profile{
+padding-top: 15px;
+}
+.article-content-second .who-to-follow .who-to-follow-profile .who-to-follow-username-photo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.article-content-second .who-to-follow .who-to-follow-profile .who-to-follow-username-photo img{
+  border-radius: 25px;
+}
+
+
+.article-content-second .who-to-follow .who-to-follow-profile .who-to-follow-info-and-follow-button{
+  display: flex;
+  padding-top: 10px;
+  
+  
+}
+.article-content-second .who-to-follow .who-to-follow-profile .who-to-follow-info-and-follow-button p{
+color: rgba(0, 0, 0, 0.621);
+}
+
+.article-content-second .who-to-follow .who-to-follow-profile .who-to-follow-info-and-follow-button button{
+  
+  border-radius: 25px;
+  padding: 1px 8px;
+  border-color: rgba(0, 0, 0, 0.542);
+}
